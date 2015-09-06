@@ -1,0 +1,16 @@
+{
+  "name": "susi-javascript",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "node --harmony tools/npm/build.js",
+    "test": "node --harmony tools/npm/test.js"
+  },
+  "devDependencies": {
+    "docopt": "^0.6.2",
+    "mkdirp": "^0.5.1",
+    "mocha": "^2.3.0",
+    "rimraf": "^2.4.3",
+    "deep-diff": "^0.3.2"
+  }
+}
